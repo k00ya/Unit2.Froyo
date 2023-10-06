@@ -22,7 +22,7 @@ function countOccurrences(arr) {
   // Prompt the user for froyo flavors and split into an array
   const userInputString = prompt(
     "Please enter your froyo flavors separated by commas.",
-    "vanilla,vanilla,strawberry,coffee"
+    "vanilla,vanilla,vanilla,strawberry,coffee,coffee"
   );
   const flavorArray = userInputString.split(",");
   
